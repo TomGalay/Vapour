@@ -1,0 +1,91 @@
+/* The Modal (background) */
+.modal {
+  margin: 0 auto;
+  z-index: 5;
+  display: none;
+  position: fixed;
+  overflow: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Modal Content */
+.modal-content {
+  z-index: 5;
+  background-color: #181818;
+  margin: 0 auto;
+  /*border: 1px solid #888;*/
+  position: relative;
+  flex-wrap: wrap;
+  gap: 1.15rem;
+  padding: 2.5rem 2.5rem;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.image_modal_game img {
+  width: 100%;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 0px;
+  right: 8px;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image_modal_game {
+  position: relative;
+}
+
+.div_button {
+  z-index: 0;
+  position: relative;
+  top: -50%;
+  left: 0%;
+  transform: translate(-0%, -50%);
+  padding: 1rem 0.5rem;
+}
+
+.modal-name {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-play {
+  font-family: 'Poppins', sans-serif;
+  color: #FCFCFC;
+  background-color: #839322;
+  border: solid 1px #FCFCFC;
+  border-radius: 3px; 
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;  
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+
+.btn-play:hover{
+  background-color: #636D22;
+  cursor: pointer;
+}
+
+h3.game-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #839322;
+}

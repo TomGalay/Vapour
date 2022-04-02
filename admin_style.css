@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: #222222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5rem 5rem;
+}
+
+form {
+    min-height: 400px;
+    min-width: 1280px;
+    background-color: #fcfcfc;
+    padding: 2rem 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    gap: 1rem;
+    box-shadow: 8px 8px 8px 0px #31313177;
+    border-radius: 15px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 1.75rem;
+}
+
+input[type=submit] {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    width: 400px;
+}
+
+input[type=submit]:hover {
+    color: #f1f1f1;
+    background-color: black;
+}
+
+.div-btn {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+form p,h1 {
+    color: #222222;
+}
+
+form h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+form p {
+    font-size: 2rem;
+}
+
+.preview img {
+    width: 250px;
+    height: 250px;
+}
+.form-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary{
+    margin-top: 2.5rem;
+}
+
+table, th, td {
+    border: 2px solid rgb(51, 51, 51);
+}
+
+table, td {
+    background: white;
+}
+
+table {
+  
+    border-collapse: collapse;
+}
+
+table img {
+    display: flex;
+}
+
+td {
+    text-align: center;
+    height: 15rem;
+    width: 15rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(51, 51, 51);
+}
+
+th {
+    background: rgb(51, 51, 51);
+    color: white;
+    padding: 1.5rem 2rem;
+    font-size: 1.15rem;
+}

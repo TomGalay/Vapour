@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-image: url("assets/login/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #312e2e;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: #312e2e;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(152, 217, 122)), color-stop(0.72, rgb(83, 189, 73)), color-stop(0.86, rgb(76, 148, 28)));
+}
+
+.custom-shape-divider-top-1616334821 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1616334821 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 149px;
+}
+
+.custom-shape-divider-top-1616334821 .shape-fill {
+    fill: #8493225b;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.forms form {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right: 20px;
+    width: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px;
+    display: inline-block;
+    border: none;
+    border-bottom: solid 1px #FFFFFF;
+    background: none;
+}
+
+input[type="text"]:focus, [type="password"]:focus, textarea:focus {
+    outline: none;
+}
+
+.registerbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    background-color: #E5E5E5;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    padding: 0.75rem;
+    width: 100%;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #839322;
+    transition: all 0.3s;
+}
+
+.remember {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    align-items: center;
+    user-select: none;
+}
+
+.remember label {
+    z-index: 10;
+    cursor: pointer;
+}
+
+.remember input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.remember input:checked~.check {
+    border-color: #00ea90;
+    box-shadow: 0px 0px 0px 15px #00ea90 inset;
+}
+
+.remember input:checked~.check::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.remember .check {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 2px solid #00ea90;
+    box-shadow: 0px 0px 0px 0px #00ea90 inset;
+    transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+
+.remember .check::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 4;
+    position: absolute;
+    transform: scale(0);
+    background-size: 50%;
+    background-image: url("http://s6.picofile.com/d/8392306668/c38c12a0-6db3-47d4-a80c-7dad8fab5186/checkmark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-delay: 0.2s !important;
+    transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+
+.register {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register h2, .register a {
+    font-size: 12px;
+    text-align: center;
+}
+
+.register a {
+    text-decoration: none;
+    color: #839322;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+#valid {
+    color: #ec6565;
+}

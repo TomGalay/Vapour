@@ -1,0 +1,274 @@
+.wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #312e2e;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 10px;
+  background-color: #312e2e;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(152, 217, 122)), color-stop(0.72, rgb(83, 189, 73)), color-stop(0.86, rgb(76, 148, 28)));
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  border: 1.5px solid #fff;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 300px;
+  z-index: -5;
+}
+
+.parallax__group {
+  height: 100vh;
+  width: 100vw;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.esports {
+  background: url('assets/about/esports.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-600px) scale(3);
+  z-index: -5;
+}
+
+.people1 {
+  background: url('assets/about/people1.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-250px) scale(1.833333333);
+  z-index: -2;
+}
+
+.people2 {
+  background: url('assets/about/people2.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(-125px) scale(1.4167);
+  z-index: -1;
+}
+
+.people3 {
+  background: url('assets/about/people3.png') no-repeat center;
+  background-size: cover;
+  transform: translateZ(0) scale(1);
+  z-index: 0;
+}
+
+.hero-text {
+  background-color: #2727279c;
+  background-image: linear-gradient(315deg, #63d4707c 0%rgba(35, 51, 41, 0.329)29 74%);  
+  background-size: cover;
+  transform: translateZ(0) scale(1);
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text p{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.text h1, .text h2{
+  display: inline-block;
+  gap: 1rem;
+}
+
+.text h1{
+  font-size: 74px;
+  font-weight: 700;
+  color: #839322;
+}
+
+.text h2{
+  font-size: 72px;
+  font-weight: 200;
+  color: #FFFFFF;
+}
+
+.social-container {
+  position: absolute;
+  left: 2.5rem;
+  bottom: 2.5rem;
+}
+
+.social-container i {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+}
+
+.info-container {
+  background: #151515;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container2{
+  background: #84932242;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.info-container3{
+  background: #84932294;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.subheading{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.subheading2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.subheading h1{
+  text-align: center;
+  align-items: center;
+  color: #839322;
+  font-size: 36px;
+}
+
+.subheading2 h1{
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 36px;
+}
+
+.subcontain, .subcontain3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.subcontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.subcontain2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.subcontain img, .subcontain3 img {
+  width: 40%;
+  margin-bottom: 2.5rem;
+  filter: saturate(0.65);
+}
+
+.subcontain-back{
+  background: url('assets/about/values.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+}
+
+.value1, .value2, .value3, .value4, .value5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 20%;
+  font-size: 20px;
+  border: 1px solid white;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.value1:hover, .value2:hover, .value3:hover, .value4:hover, .value5:hover{
+  background-color: #84932248;
+  transition: all 0.3s;
+}
+
+.subcontain2 img{
+  width: 100%;
+}
+
+.info-container h2,
+.info-container p {
+  margin-bottom: 1rem;
+}
+
+.text-container1{
+  text-align: center;
+  width: 70%;
+}
+
+.text-container h2{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.text-container p{
+  font-weight: 300;
+  font-size: 16px;
+}

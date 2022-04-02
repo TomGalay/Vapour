@@ -1,0 +1,45 @@
+11 - Yakuza 0 - Action
+12 - Don't Starve Together - Adventure
+13 - GTA V - Adventure
+14 - Pokemon Sword and Shield - Adventure
+15 - Red Dead Redemption 2  - Adventure
+16 - Aimlab - Casual
+17 - Among Us - Casual
+18 - Overcooked! 2 - Casual
+19 - Plague Inc. - Casual
+20 - Planet Zoo - Casual
+21 - Dead by Daylight - Horror
+22 - Little Nightmare II - Horror
+23 - Outlast - Horror
+24 - Pacify - Horror
+25 - Phasmophobia - Horror
+26 - Beat Saber - Indie
+27 - Immortal Soul: Black Survival - Indie
+28 - Project Winter - Indie
+29 - Stardew Valley - Indie
+30 - Terraria - Indie
+31 - Dota 2 - Multiplayer
+32 - Fall Guys - Multiplayer
+33 - League of Legends - Multiplayer
+34 - CarX Drift Racing Online - Racing
+35 - F1 2020 - Racing
+36 - Forza Horizon 4 - Racing
+37 - Mario Kart 8 Deluxe - Racing
+38 - Albion Online - RPG
+39 - Final Fantasy XII - RPG
+40 - Guild Wars 2 - RPG
+41 - The Elder Scrolls Online - RPG
+42 - Wow Shadowlands - RPG
+43 - Cities: Skylines - Simulation
+44 - Jurassic World Evolution - Simulation
+45 - The Sims 4 Seasons - Simulation
+46 - Train Simulator 2021 - Simulation
+47 - 5D Chess with Multiverse Time Travel - Sports
+48 - Creed Rise to Glory - Sports
+49 - FIFA 21 - Sports
+50 - WWE 2k20 - Sports
+51 - Age of Empires II - Strategy
+52 - Sid Meier's Civilization VI - Strategy
+53 - Plants versus Zombies - Strategy
+54 - Starcraft II - Strategy
+55 - Total War: Warhammer - Strategy

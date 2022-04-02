@@ -1,0 +1,219 @@
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #312e2e;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: #312e2e;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(152, 217, 122)), color-stop(0.72, rgb(83, 189, 73)), color-stop(0.86, rgb(76, 148, 28)));
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-image: url("assets/registration/registration-wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custom-shape-divider-bottom-1616380876 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1616380876 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 81px;
+}
+
+.custom-shape-divider-bottom-1616380876 .shape-fill {
+    fill: #84932267;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.registration-icontain {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.registration-icontain-hover {
+    position: absolute;
+    right: 0;
+    top: 229px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15.49%;
+}
+
+.registration-icons-hover {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.registration-icons-hover a {
+    opacity: 0;
+}
+
+.registration-icons a {
+    opacity: 1;
+}
+
+.registration-icons a:hover {
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.registration-icons-hover a:hover {
+    opacity: 1;
+    transition: 0.5s all;
+}
+
+.small-text-reg {
+    text-align: center;
+}
+
+.forms form {
+    margin: 0 2rem 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+input[type="text"], input[type="password"],input[type="date"] {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px;
+    display: inline-block;
+    border: none;
+    background: #70707042;
+}
+
+input[type="text"]:focus, input[type="password"], input[type="date"], textarea:focus {
+    outline: none;
+}
+
+.username, .pass, .confirm-pass, .dob, .email, .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 40%;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 40%;
+}
+
+.first-name, .last-name {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 0.6rem;
+}
+
+.registerbtn {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    background-color: #e5e5e5a2;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    padding: 0.75rem;
+    width: 100%;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #839322;
+    transition: all 0.3s;
+}
+
+.log-in {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-in h2, .log-in a {
+    font-size: 12px;
+    text-align: center;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: #839322;
+}
+
+.log-in a:hover {
+    text-decoration: underline;
+}
+
+#valid {
+    color: #ec6565;
+}

@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #312e2e;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: #312e2e;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(152, 217, 122)), color-stop(0.72, rgb(83, 189, 73)), color-stop(0.86, rgb(76, 148, 28)));
+}
+
+.background {
+    background-color: #222222;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title h1{
+    color: #839322;
+    text-transform: lowercase;
+}
+
+.marketplace {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    min-width: 720px;
+    margin: 0 auto;
+}
+
+.marketplace h2, h3, p, a {
+    color: #FCFCFC;
+}
+
+.nav-space {
+    padding-top: 5rem;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0.15rem;
+    width: 100%;
+}
+
+.btn-genre {
+    font-family: 'Poppins', sans-serif;
+    color: #FCFCFC;
+    text-align: center;
+    border: solid 2px #839322;
+    background-color: #222222;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 0.75rem 2.5rem;
+    min-width: 4rem;
+}
+
+.btn-genre:hover{
+    background-color: #839322;
+    cursor: pointer;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2.5rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.game-price {
+    color:rgb(83, 189, 73);
+}
+
+.featured-img img{
+    width: 100%;
+}
+
+.game-img img {
+    max-width: 720px;
+}
+
+.game-list-compact {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-img-compact img {
+    width: 100%;
+}
+
+.game-compact {
+    text-align: center;
+    margin: 0 1.15rem
+}
+
+.btn-details {
+    font-family: 'Poppins', sans-serif;
+    color: #FCFCFC;
+    background-color: #313131;
+    border: solid 1px #FCFCFC;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 2.5rem;  
+    font-weight: lighter;
+    font-size: 1.25rem;  
+}
+
+.btn-buy {
+    font-family: 'Poppins', sans-serif;
+    color: #FCFCFC;
+    background-color: #839322;
+    border: solid 1px #FCFCFC;
+    border-radius: 3px; 
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 2.5rem;  
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+
+.btn-buy:hover{
+    background-color: #636D22;
+    cursor: pointer;
+}
+.btn-details:hover{
+    background-color: #1d1d1d;
+    cursor: pointer;
+}
+
+form.market-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.game-details {
+    justify-content: space-between;
+}
+
+.game-description {
+    max-width: 20rem;
+}
+
+.game-info {
+    min-width: 45rem;
+    justify-content: space-between;
+}
+
+.game-info-band-aid {
+    padding: 0 0.5rem;
+    flex-wrap: wrap;
+}
+
+.game-offer-card {
+    border: solid 1px #FCFCFC;
+    background-color: #333333;
+    padding: 1.15rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.card-price {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.card-btn {
+    background-color: #839322;
+    border: solid 1px #FCFCFC;
+    border-radius: 3px;
+}
+
+.card-btn a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 1.15rem 2.5rem;  
+    font-weight: lighter;
+    font-size: 1.25rem;  
+}
+
+.card-btn:hover {
+    background-color: #636D22;
+}
+
+.card-img {
+    max-width: 150px;
+    max-height: 250px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.card-img img{
+    max-width: 150px;
+    max-height: 250px;
+    filter:brightness(50%);
+}
+
+.featured-form {
+    position: relative;
+}
+
+.featured-form {
+    width: 100%;
+}
+
+.hide-name {
+    z-index: 1;
+}
+
+.div {
+    position: absolute;
+    top: 95%;
+    left: 15%;
+    transform: translate(-15%, -95%);
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1rem 1.5rem;
+}
+
+.btn-featured {
+    background: none;
+	color: #839322;
+    font-weight: bolder;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.btn-featured:hover {
+    text-decoration: underline;
+}
+
+.btnsubmit {
+    background: none;
+    font-weight: bolder;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width:fit-content;
+}
+
+.btn-compact {
+    background: none;
+	color: #FCFCFC;
+    font-weight: bolder;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.btn-compact:hover {
+    text-decoration: underline;
+}
+
+
+
+/*
+    payment
+*/
+
+.checkout {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.checkout h2, h3, p, a {
+    color: #FCFCFC;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 1080px;
+}
+
+.payment h2, .payment h3 {
+    text-align: center;
+}
+
+.payment p {
+    font-size: 1.3rem;
+}
+
+.payment-img {
+    display: flex;
+    justify-content: center;
+}
+
+.payment-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.payment-order, .payment-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.payment-option {
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px #839322;
+    padding: 1.15rem;
+    gap: 1.15rem;
+}
+
+.payment-email {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.payment form {
+    justify-content: center;
+    align-items: center;
+    gap: 1.15rem;
+}
+
+.payment form input[type=submit] {
+    width: 10rem;
+}
+
+.payment form input[type=text] {
+    height: 2rem;
+}
+
+form.confirm {
+    margin: 0 auto;
+    max-width: 500px;
+    border: solid 2px #333333;
+    background-color: #1d1d1d;
+    padding: 1.5rem 3rem;
+}
+
+
+
+/*
+    profile
+*/
+
+.profile-game-list {
+    display: flex;
+    flex: row;
+    gap: 1.15rem;
+}
+
+.profile-game-list img {
+    width: 150px;
+    height: 250px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 1.25rem;
+}
+.gap-3 {
+    gap: 1.5rem;
+}
+
+h3.profile-user {
+    color:#839322;
+    font-size: 2.5rem;
+}
+h3.profile-bday {
+    color:#839322;
+    font-size: 1.5rem;
+}
+
+.profile-info {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile-list {
+    justify-content: space-between;
+}
+/*
+    library
+*/
+
+.library {
+    flex-wrap: wrap;
+    gap: 1.15rem;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+#valid {
+    color: #ec6565;
+}
